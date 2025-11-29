@@ -6,8 +6,8 @@ Vanilla JS · SCSS · Adaptive Layout
 ---
 
 ## 🚀 Демо  
-**Production:** [_<вставьте ссылку на Vercel>_](https://test-vanilla-js-alpha.vercel.app/)_  
-**Repository:** [_<вставьте ссылку на GitHub>_](https://github.com/Leenay97/TestVanillaJS)
+**Production:** (https://test-vanilla-js-alpha.vercel.app/)_  
+**Repository:** (https://github.com/Leenay97/TestVanillaJS)
 
 ---
 
@@ -37,25 +37,6 @@ Vanilla JS · SCSS · Adaptive Layout
 
 ---
 
-## 📁 Структура проекта
-/
-├── index.html
-├── /css
-│ └── styles.css
-├── /scss
-│ ├── base/
-│ ├── components/
-│ ├── layout/
-│ └── main.scss
-├── /js
-│ ├── state.js
-│ ├── filters.js
-│ ├── render.js
-│ ├── components/
-│ └── app.js
-└── /assets
-
----
 
 ## 🔍 Поиск и фильтрация
 
@@ -84,7 +65,7 @@ Vanilla JS · SCSS · Adaptive Layout
 
 ## ⚙️ Запуск локально
 
-git clone [<repo-url>](https://github.com/Leenay97/TestVanillaJS)
+git clone (https://github.com/Leenay97/TestVanillaJS)
 cd project-folder
 npm install
 npm run dev # если есть сборщик scss
