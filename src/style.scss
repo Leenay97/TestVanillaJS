@@ -45,25 +45,25 @@
         font-size: 18px;
     }
 
-    &__more-btn {
-        width: 116px;
-        padding-left: 37px;
-        font-size: 16px;
-        font-weight: 700;
-        border: 0;
-        background-color: white;
-        background-image: url('/img/refresh.svg');
-        line-height: 160%;
-        background-position: left;
-        background-repeat: no-repeat;
-        margin-top: 80px;
-        margin-bottom: 36px;
-        cursor: pointer;
+}
 
-        &:hover {
-            transform: scale(103%);
-            transition: 0.2s all ease-out;
-        }
+.cards-list__more-btn {
+    width: 116px;
+    padding-left: 37px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0;
+    background-color: white;
+    background-image: url('/img/refresh.svg');
+    line-height: 160%;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    margin-bottom: 36px;
+    cursor: pointer;
 
+    &:hover {
+        transform: scale(103%);
+        transition: 0.2s all ease-out;
     }
 }
