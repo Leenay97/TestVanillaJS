@@ -774,12 +774,11 @@ function handleSearchInput(event) {
 
 // -------------------- EVENT LISTENERS --------------------
 function initEventListeners() {
-    // Удаляем старые обработчики (чтобы избежать дублирования)
+
     document.querySelector('.filters')?.removeEventListener('click', handleFilterClick);
     document.querySelector('.cards-list__more-btn')?.removeEventListener('click', handleMoreButtonClick);
     document.querySelector('.search-panel__input')?.removeEventListener('input', handleSearchInput);
 
-    // Добавляем новые
     document.querySelector('.filters')?.addEventListener('click', handleFilterClick);
     document.querySelector('.cards-list__more-btn')?.addEventListener('click', handleMoreButtonClick);
     document.querySelector('.search-panel__input')?.addEventListener('input', handleSearchInput);
