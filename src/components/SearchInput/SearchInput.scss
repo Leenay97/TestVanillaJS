@@ -1,0 +1,18 @@
+.search-panel__input {
+    width: 315px;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+    padding: 0 16px;
+    height: 44px;
+    font-size: 14px;
+
+    background-image: url('../../assets/img/search.svg');
+    background-repeat: no-repeat;
+    background-position: right 16px center;;
+
+
+    @media (max-width: 850px) {
+        min-width: 280px;
+        width: max-content;
+    }
+}

@@ -1,0 +1,51 @@
+.filters__tab {
+    padding: 12px 20px;
+    color: #9A9CA5;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    gap: 4px;
+    height: 46px;
+    border: 1px solid transparent; 
+    border-radius: 4px; 
+
+    @media (max-width: 850px) {
+
+            height: 34px;
+            padding: 8px 10px;
+
+        }
+        
+    &:hover {
+        color: #ff403a90;
+        border: 1px solid #FF3F3A90;
+        border-radius: 4px;
+        transition: all 0.2s ease-in;
+    }
+    .tab-name {
+        font-size: 16px;
+        font-weight: 700;
+
+        @media (max-width: 850px) {
+
+            font-size: 13px;
+
+        }
+    }
+    .tab-count {
+        font-size: 10px;
+        font-weight: 900;
+
+        @media (max-width: 850px) {
+
+            font-size: 8px;
+
+        }
+
+    }
+    &.active {
+        color: #FF3F3A;
+        border: 1px solid #FF3F3A;
+        border-radius: 4px;
+    }
+}

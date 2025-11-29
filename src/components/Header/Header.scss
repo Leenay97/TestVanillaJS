@@ -1,0 +1,21 @@
+.header {
+    font-weight: 700;
+    width: 100%;
+    margin-bottom: 85px;
+
+    &__content {
+        text-align: center;
+
+        h6 {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        h1 {
+            font-size: 46px;
+            font-weight: 900;
+        }
+    }
+
+
+}
