@@ -65,6 +65,7 @@ Vanilla JS · SCSS · Adaptive Layout
 * плавные анимации элементов
 * debounce для поиска
 * preloader и skeleton для карточек
+* разделение логики
 
 ---
 
